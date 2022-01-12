@@ -1,11 +1,7 @@
-﻿
+﻿var names = new List<string>{ "A","any A","C" };
+var def = new List<string>{ "A","B","C" };
 
-using System.IO.Compression;
-
-List<string> names = new List<string>{ "A","any A","C" };
-List<string> def = new List<string>{ "A","B","C" };
-
-List<string> newNames = new List<string>();
+var newNames = new List<string>();
 
 foreach (var n in names)
 {
